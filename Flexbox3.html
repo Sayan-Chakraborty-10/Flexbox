@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox3</title>
+    <style>
+        .div{
+            height: 500px;
+            border: 10px solid purple;
+            display: flex;
+            gap: 10px;
+            padding: 20px;
+            align-items: stretch;
+        }
+        .div1{
+            padding-left: 50px;
+            padding-top: 50px;
+            width: 150px;
+            border: 8px solid;
+            border-top-color: brown;
+            border-bottom-color: yellowgreen;
+            border-right-color: darkcyan;
+            border-left-color:blue;
+            border-radius: 20px;
+        }
+        #Box2{
+            flex-grow: 1;
+        }
+        </style>
+</head>
+<body>
+    <div class="div">
+        <div class="div1">Box1</div>
+        <div id="Box2" class="div1">Box2</div>
+        </div>
+</body>
+</html>

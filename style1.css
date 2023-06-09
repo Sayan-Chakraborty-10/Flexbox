@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Bebas+Neue&family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f1ff;
+    margin: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section{
+    background-color: white;
+    width: 870px;
+    padding: 30px;
+    margin-top: 30px;
+    border: 2px solid saddlebrown;
+}
+.tigers{
+    display: grid;
+    grid-row-gap:30px;
+    grid-template-columns: repeat(3,1fr);
+}
+.h2{
+    color: #562ef2;
+    font-size: 24px;
+    margin-top: 3px;
+}
+.h3{
+    margin-left: 16px;
+}
+.lion{
+    display: flex;
+    align-items: center;
+}
+.lion img{
+    height: 56px;
+    width: 56px;
+}
+hr{
+    border: 1px solid red;
+    margin-bottom: 30px;
+}
+.bigcat{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+.cat{
+    display: flex;
+}
+.img{
+    width: 140px;
+    height: 120px;
+}
+.bloginfo{
+    margin-left: 10px;
+}
+.bloginfo a{
+    text-decoration: none;
+}
+.section2{
+    background-color: white;
+    border: 2px solid saddlebrown;
+    padding: 30px;
+    margin-top: 20px;
+    width: 870px;
+}
+.div1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px;
+}
+.div3 img{
+    width: 140px;
+    height: 120px;
+}
+.div4 a{
+    text-decoration: none;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.full{
+    color: #ffc014;
+}
+.fa-star.empty{
+    color: #aeaeae;
+}
+.div5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div7{
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: #b95858;
+}
+@media screen and (max-width:688px){
+    .section{
+        width: 100%;
+    }
+    .section2{
+        width: 100%;
+    }
+    .tigers, .bigcat, .div1{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .lion, .cat{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:688px) and (max-width:820px){
+    .section{
+        width: 100%;
+    }
+    .section2{
+        width: 100%;
+    }
+    .tigers, .bigcat, .div1{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .lion, .cat{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        h1{
+            text-align: center;
+            color: red;
+            font-size: 50px;
+            text-decoration:underline;
+        }
+        .calender{
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            height: 500px; 
+            width: 500px;
+            padding-left: 380px;
+            row-gap: 10px;
+            column-gap: 10px;
+            justify-items: center;
+        }
+        .date, .day{
+            background-color: cyan;
+            height: 60px;
+            display: flex;
+            justify-content: center ;
+            align-items: center;
+            width: 60px;
+            font-size: 2em;
+            border-radius: 20px;
+        }
+        .other{
+            background-color: gray;
+        }
+        .day{
+            height: 40px;
+            width: 80px;
+            border-radius: 20px;
+            background-color: blue;
+            color: white;
+        }
+        .off{
+            background-color: red;
+        }
+        .off1{
+            background-color:blue;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>December 2000</h1>
+ <div class="calender">
+    <div class="day">SUN</div>
+    <div class="day">MON</div>
+    <div class="day">TUE</div>
+    <div class="day">WED</div>
+    <div class="day">THU</div>
+    <div class="day off">FRI</div>
+    <div class="day off">SAT</div>
+    <div class="date other">26</div>
+    <div class="date other">27</div>
+    <div class="date other">28</div>
+    <div class="date other">29</div>
+    <div class="date other">30</div>
+    <div class="date off">1</div>
+    <div class="date off">2</div>
+    <div class="date">3</div>
+    <div class="date">4</div>
+    <div class="date">5</div>
+    <div class="date off1">6</div>
+    <div class="date">7</div>
+    <div class="date off">8</div>
+    <div class="date off">9</div>
+    <div class="date">10</div>
+    <div class="date">11</div>
+    <div class="date">12</div>
+    <div class="date">13</div>
+    <div class="date off">14</div>
+    <div class="date off">15</div>
+    <div class="date off">16</div>
+    <div class="date">17</div>
+    <div class="date">18</div>
+    <div class="date">19</div>
+    <div class="date">20</div>
+    <div class="date">21</div>
+    <div class="date off">22</div>
+    <div class="date off">23</div>
+    <div class="date">24</div>
+    <div class="date off">25</div>
+    <div class="date">26</div>
+    <div class="date">27</div>
+    <div class="date">28</div>
+    <div class="date off">29</div>
+    <div class="date off">30</div>
+    <div class="date">31</div>
+    <div class="date other">01</div>
+    <div class="date other">02</div>
+    <div class="date other">03</div>
+    <div class="date other">04</div>
+    <div class="date other">05</div>
+    <div class="date other">06</div>
+ </div>
+</body>
+</html>
